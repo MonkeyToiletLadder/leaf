@@ -34,7 +34,7 @@
 	
 	
 	Solution:
-	Part of the following code, lines 130 - 134, does this by checking 
+	Part of the following code does this by checking 
 	if the dot product of the circle velocity onto the segment is within 
 	the dot products of the segment onto itself.
 	

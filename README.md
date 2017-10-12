@@ -6,12 +6,17 @@
     To compile use g++ example.cpp -O2.
     
 	Line Segment vs Circle 
+	
 	Swept Collision Detection
+	
+	
 	Goal: 
 	Calculate the points of collision 
 	for a static line segment and 
 	accelerating circle 
 	over a time step.
+	
+	
 	Obstacles:
 	There are two cases.  
 	A circle may collide
@@ -24,6 +29,8 @@
 	How can we tell if the circle is going to
 	collide with one of the end points or 
 	a point in between?
+	
+	
 	Solution:
 	Part of the following code, lines 130 - 134, does this by checking 
 	if the dot product of the circle velocity onto the segment is within 

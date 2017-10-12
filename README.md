@@ -22,9 +22,11 @@
 	A circle may collide
 	with one of the end points or
 	a point in between.
+	
 	These cases require different logic when
 	locating intersection points on the circle and
 	line segment.
+	
 	Distinguishing these cases is tricky.  
 	How can we tell if the circle is going to
 	collide with one of the end points or 
